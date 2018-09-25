@@ -1,0 +1,27 @@
+{
+  "name": "webpack-reload",
+  "version": "1.0.0",
+  "description": "Initialize new npm project ``` npm init ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/js/main.js --output ./dist/js/main.js",
+    "production": "webpack --mode production ./src/js/main.js --output ./dist/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fab-zio/webpack-reload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fab-zio/webpack-reload/issues"
+  },
+  "homepage": "https://github.com/fab-zio/webpack-reload#readme",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "node-loader": "^0.6.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.20.0",
+    "webpack-cli": "^3.1.1"
+  }
+}
